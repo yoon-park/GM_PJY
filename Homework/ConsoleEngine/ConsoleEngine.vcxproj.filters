@@ -2,8 +2,18 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClInclude Include="EngineDebug.h" />
+    <ClInclude Include="EngineCore.h" />
+    <ClInclude Include="ConsoleUpdater.h" />
+    <ClInclude Include="ConsoleScreen.h" />
+    <ClInclude Include="ConsoleObject.h" />
+    <ClInclude Include="ConsoleMath.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EngineDebug.cpp" />
+    <ClCompile Include="EngineCore.cpp" />
+    <ClCompile Include="ConsoleUpdater.cpp" />
+    <ClCompile Include="ConsoleScreen.cpp" />
+    <ClCompile Include="ConsoleObject.cpp" />
+    <ClCompile Include="ConsoleMath.cpp" />
   </ItemGroup>
 </Project>
